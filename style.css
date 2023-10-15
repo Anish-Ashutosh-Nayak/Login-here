@@ -29,7 +29,7 @@ body {
     align-items: center;
     outline: none;
     border: none;
-    box-shadow: white 0px 8px 24px;
+    
 }
 
 
@@ -269,6 +269,9 @@ body {
 }
 
 @media (min-width: 600px) {
+    .container {
+        box-shadow: black 0px 8px 24px;
+    }
     .loginSection {
         margin-right: 30px;
     }
